@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap'); */
+body {
+  font-family: "arial bold";
+}
+form input:focus{
+outline: none;
+}
+form textarea:focus{
+outline: none;
+}
+
+@media (max-width: 376px) {
+  .imgmob {
+    width: 100% !important;
+    height: 50vh !important;
+  }
+}
+@media (min-width : 376px) and (max-width: 426px){
+  img{
+    width: 80% !important;
+  }
+}
+@media (min-width: 768px) {
+  .profile-img {
+    width: 40% !important;
+  }
+  .mdlgimg {
+    width: 300px !important;
+    height: 400px !important;
+  }
+  p {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .widthlg {
+    width: 40%;
+    height: 20% !important;
+    /* border: 1px solid red; */
+  }
+  h1 {
+    font-size: 30px !important;
+  }
+}
+
+/* ============================== */
+
+small.active {
+  display: none;
+}
