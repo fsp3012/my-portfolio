@@ -2,27 +2,29 @@
 body {
   font-family: "arial bold";
 }
-form input:focus{
-outline: none;
+form input:focus {
+  outline: none;
 }
-form textarea:focus{
-outline: none;
+form textarea:focus {
+  outline: none;
 }
 
 @media (max-width: 376px) {
-  .imgmob {
-    width: 100% !important;
-    height: 50vh !important;
+  .profile-img {
+    width: 60vw !important;
+    height: 25vh !important;
+    border-radius: 100% !important;
   }
 }
-@media (min-width : 376px) and (max-width: 440px){
-  img{
+@media (min-width: 376px) and (max-width: 440px) {
+  img {
     width: 80% !important;
   }
 }
 @media (min-width: 768px) {
   .profile-img {
     width: 40% !important;
+    height: 35vh !important;
   }
   .mdlgimg {
     width: 300px !important;
@@ -41,6 +43,10 @@ outline: none;
   }
   h1 {
     font-size: 30px !important;
+  }
+  .profile-img {
+    width: 50% !important;
+    height: 50vh !important;
   }
 }
 
